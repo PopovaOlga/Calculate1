@@ -25,6 +25,15 @@ public class TestCalculate {
         // Method to check
         assertEquals("10 + 5 must be 15", 15, calc.add(10, 5));
     }
+    @Test
+    public void testSubtraction() {
+
+// Class for testing
+        Calculate calc = new Calculate();
+
+// Method to check
+        assertEquals("1 - 1 must be 0 ", 0, calc.subtraction(1, 1));
+    }
 
 
     //TODO
